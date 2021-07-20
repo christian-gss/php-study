@@ -1,0 +1,3 @@
+SELECT * FROM inventory 
+FULL OUTER JOIN film_category
+ON inventory.film_id = film_category.film_id
